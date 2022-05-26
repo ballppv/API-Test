@@ -1,0 +1,45 @@
+.result{
+  background: #064858;
+  border-radius: 30px;
+  }
+  
+.user{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+  align-items:center;
+  padding: 35px;
+}
+    
+.user .image{
+  width:40%;
+}
+    
+.user .image img{
+  width: 80%;
+  border-radius: 40%;
+}
+  
+.user-info *{
+  display: flex;
+  padding: 0 0px;
+  font-size: 18px;
+  height: 25px;
+}
+
+a{
+  background-color: pink;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.user-info img{
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  margin: 0 5px;
+}
+
+.link{
+  margin: 8px 0;
+}

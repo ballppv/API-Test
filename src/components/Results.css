@@ -23,14 +23,31 @@
 .user-info *{
   display: flex;
   padding: 0 0px;
-  font-size: 18px;
+  font-size: 15px;
   height: 25px;
 }
 
+.bio{
+  font-size: 12px;
+  margin: 0 0 10px 0;
+}
+
 a{
-  background-color: pink;
+  background-color: #9efae8;
   border-radius: 10px;
   text-decoration: none;
+  text-align: center;
+  border: 2px solid rgb(35, 134, 134);
+}
+
+a:hover{
+  background-color:rgb(46, 201, 201);
+  box-shadow: rgb(255, 197, 197);
+  box-sizing: auto;
+}
+a:active{
+  background-color:rgb(250, 207, 248);
+  border-color: rgb(247, 212, 244)
 }
 
 .user-info img{
@@ -42,4 +59,10 @@ a{
 
 .link{
   margin: 8px 0;
+}
+
+.repo{
+  padding:0 5px;
+  margin: 10px 0;
+  color: rgb(107, 233, 170);
 }
